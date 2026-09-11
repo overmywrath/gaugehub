@@ -146,7 +146,7 @@ end
 if getgenv().GaugeHubLoaded then return end
 getgenv().GaugeHubLoaded = true
 
-local BASE = "https://raw.githubusercontent.com/f4ed67/test/refs/heads/main/gaugehub/"
+local BASE = "https://raw.githubusercontent.com/overmywrath/gaugehub/refs/heads/main/"
 local function loadmod(name)
     local ok, result = pcall(function()
         local src = game:HttpGet(BASE .. name .. ".lua", true)
@@ -163,7 +163,7 @@ local lib = loadmod("lib")
 if not lib then return end
 lib.notif = notif
 
-local MODULES = { "search", "ai", "character", "camp_main", "movies", "expedition", "closet", "blatant", "fun", "auto" }
+local MODULES = { "search", "custom", "ai", "character", "camp_main", "movies", "expedition", "closet", "blatant", "fun", "auto" }
 for _, name in ipairs(MODULES) do
     local fn = loadmod(name)
     if type(fn) == "function" then
@@ -176,7 +176,7 @@ lib.finishSearch()
 
 task.spawn(function()
     pcall(function()
-        local src = game:HttpGet("https://raw.githubusercontent.com/f4ed67/test/refs/heads/main/commands.lua", true)
+        local src = game:HttpGet("https://raw.githubusercontent.com/overmywrath/gaugehub/refs/heads/main/bonus/commands.lua", true)
         if src and src ~= "" then
             local fn = loadstring(src)
             if fn then fn() end
