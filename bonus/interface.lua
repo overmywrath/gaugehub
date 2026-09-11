@@ -1,9 +1,25 @@
 --[[
 
-All creds to:
 Luna Interface Suite
 by Nebula Softworks
-this is the last fucking time im updating this i mfuckign pissed if this doesnt fucking work im quitting
+
+Main Credits
+
+Hunter (Nebula Softworks) | Designing And Programming | Main Developer
+JustHey (Nebula Softworks) | Configurations, Bug Fixing And More! | Co Developer
+Throit | Color Picker
+Wally | Dragging And Certain Functions
+Sirius | PCall Parsing, Notifications, Slider And Home Tab
+Luna Executor | Original UI
+
+
+Extra Credits / Provided Certain Elements
+
+Pookie Pepelss | Bug Tester
+Inori | Configuration Concept
+Latte Softworks and qweery | Lucide Icons And Material Icons
+kirill9655 | Loading Circle
+Deity/dp4pv/x64x70 | Certain Scripting and Testing ig
 
 ]]
 
@@ -6711,7 +6727,7 @@ if isStudio then
 	local Window = Luna:CreateWindow({
 		Name = "Nebula Client - Luna Hub | Blade Ball",
 		Subtitle = "by Nebula Softworks",
-		LogoID = "123795201100198",
+		LogoID = "124418177433188",
 		LoadingEnabled = true,
 		LoadingTitle = "Nebula Client (Luna Hub)",
 		LoadingSubtitle = "Loading script for Blade Ball",
