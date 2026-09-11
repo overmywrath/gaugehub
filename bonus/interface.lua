@@ -6727,7 +6727,7 @@ if isStudio then
 	local Window = Luna:CreateWindow({
 		Name = "Nebula Client - Luna Hub | Blade Ball",
 		Subtitle = "by Nebula Softworks",
-		LogoID = "124418177433188",
+		LogoID = "123795201100198",
 		LoadingEnabled = true,
 		LoadingTitle = "Nebula Client (Luna Hub)",
 		LoadingSubtitle = "Loading script for Blade Ball",
