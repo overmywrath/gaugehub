@@ -22,8 +22,8 @@ local function ayaLog(msg)
     print("[GaugeHub] " .. msg)
 end
 
-local _ = loadstring(game:HttpGet("https://raw.githubusercontent.com/f4ed67/test/refs/heads/main/funny.lua"))()
-local _ = loadstring(game:HttpGet("https://raw.githubusercontent.com/f4ed67/test/refs/heads/main/d.lua"))()
+local _ = loadstring(game:HttpGet("https://raw.githubusercontent.com/overmywrath/gaugehub/refs/heads/main/bonus/funny.lua"))()
+local _ = loadstring(game:HttpGet("https://raw.githubusercontent.com/overmywrath/gaugehub/refs/heads/main/bonus/d.lua"))()
 
 local function VerifiedIcon() return "" end
 local function DeveloperIcon() return " [🔨Moderator]" end
@@ -61,7 +61,7 @@ getgenv().GaugeHubLagString = (function()
     return ""
 end)()
 
-local whitelisturl = "https://raw.githubusercontent.com/f4ed67/test/main/whitelists.txt"
+local whitelisturl = "https://raw.githubusercontent.com/overmywrath/gaugehub/refs/heads/main/bonus/whitelists.txt"
 if setfpscap then pcall(function() setfpscap(999) end) end
 
 local WHITELIST = {}
