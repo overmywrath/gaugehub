@@ -4,7 +4,6 @@ return function(lib)
     lib.tabs.character = tab
     lib.installFeatureTracker(tab, "character", "camp")
     local notif = lib.notif
-    local ayaLog = lib.ayaLog
     local VerifiedIcon = lib.VerifiedIcon
     local DeveloperIcon = lib.DeveloperIcon
 
