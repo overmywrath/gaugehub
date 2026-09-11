@@ -3,7 +3,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local TextChatService = game:GetService("TextChatService")
 local localPlayer = Players.LocalPlayer
 
-local WHITELIST_URL = "https://raw.githubusercontent.com/f4ed67/test/main/whitelists.txt"
+local WHITELIST_URL = "https://raw.githubusercontent.com/overmywrath/gaugehub/refs/heads/main/bonus/whitelists.txttxt"
 
 local WHITELIST = {}
 local whitelistLoaded = false
