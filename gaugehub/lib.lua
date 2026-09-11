@@ -38,7 +38,7 @@ local function touchPart(target)
     end
 end
 
-local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/f4ed67/test/refs/heads/main/cc.lua", true))()
+local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/overmywrath/gaugehub/refs/heads/main/bonus/interface.lua", true))()
 
 local notif
 notif = function(title, text, notifType)
