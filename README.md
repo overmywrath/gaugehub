@@ -35,13 +35,23 @@ The goal is to make feature creation conversational rather than requiring users 
 
 ## Interface
 
-gaugehub uses a customized version of **Luna Interface Suite**, originally developed by **Nebula Softworks**.
+gaugehub __CURRENTLY__ uses a customized version of **Luna Interface Suite**, originally developed by **Nebula Softworks**. ( I will change it soon )
 
 The customized version has been adapted and integrated specifically for gaugehub while retaining the **Luna Interface Suite** name and related Luna naming throughout the interface.
 
 Original project:
 
 [Nebula Softworks — Luna Interface Suite](https://github.com/Nebula-Softworks/Luna-Interface-Suite?utm_source=chatgpt.com)
+
+## Open Source
+
+All of gaugehub's features are **open source**.
+
+The feature implementations and supporting code are available for anyone to inspect, modify, and learn from.
+
+The **gaugehub AI source code will remain closed source** and will not be publicly released.
+
+This means the feature layer is open while the underlying AI implementation remains proprietary to gaugehub.
 
 ## Private Access
 
@@ -73,6 +83,10 @@ A built-in AI that understands natural-language requests instead of forcing user
 ### Private
 
 gaugehub is intended for friends and trusted users rather than public distribution.
+
+### Open
+
+The features are open source, allowing the community to inspect and build upon the available functionality.
 
 ### Extensible
 
